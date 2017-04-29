@@ -1,0 +1,68 @@
+{
+	"Project" : {
+		"Name" : "Lollipop",
+		"Description" : "",
+		"Author" : {
+			"Name" : "Christian-W. Budde",
+			"Email" : "",
+			"Website" : "https:\/\/www.pcjv.de\/"
+		},
+		"Keywords" : [
+			"Lollipop"
+		]
+	},
+	"Version" : {
+		"Major" : 0,
+		"Minor" : 0,
+		"Release" : 0,
+		"Build" : 0
+	},
+	"Icon" : { },
+	"Options" : {
+		"CompilerOptions" : {
+			"Assertions" : true,
+			"ConditionalDefines" : "",
+			"Optimizations" : false,
+			"HintsLevel" : 2
+		},
+		"CodeGenOptions" : {
+			"RangeChecks" : false,
+			"InstanceChecks" : false,
+			"LoopChecks" : false,
+			"ConditionChecks" : false,
+			"InlineMagics" : true,
+			"Obfuscation" : true,
+			"EmitSourceLocation" : false,
+			"OptimizeForSize" : true,
+			"SmartLinking" : true,
+			"Devirtualize" : true,
+			"EmitRTTI" : false,
+			"EmitFinalization" : true,
+			"IgnorePublishedInImplementation" : false,
+			"MainBody" : "",
+			"IndentSize" : 2,
+			"Verbosity" : 0
+		},
+		"Filter" : {
+			"EditorMode" : false
+		},
+		"Output" : {
+			"Filename" : "Lollipop.js",
+			"Path" : "..\\Output\\Web\\www\\",
+			"HTML" : {
+				"Filename" : "index.html"
+			},
+			"CSS" : {
+				"Filename" : "main.css"
+			}
+		},
+		"Execution" : { }
+	},
+	"MainScript" : "Lollipop.spr",
+	"Files" : [
+		"Lollipop.Generator.pas",
+		"Lollipop.Framework.pas",
+		"Lollipop.Main.pas",
+		"Lollipop.css"
+	]
+}

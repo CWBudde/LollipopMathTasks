@@ -1,0 +1,5 @@
+uses
+  Lollipop.Main, Lollipop.Framework;
+
+Application.CreateElement(TMainScreen);
+Application.Run;

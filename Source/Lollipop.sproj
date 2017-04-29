@@ -1,0 +1,126 @@
+﻿<SMART>
+  <Project version="2" subversion="2">
+    <Name>Lollipop</Name>
+    <Created>T00:00:00.000</Created>
+    <Modified>2017-04-18T09:46:51.771</Modified>
+    <Author>Christian-W. Budde</Author>
+    <Company>Christian-W. Budde</Company>
+    <Keywords>Lollipop, Education, Math</Keywords>
+    <Url>https://www.pcjv.de/</Url>
+    <Version>
+      <Major>0</Major>
+      <Minor>0</Minor>
+      <Revision>0</Revision>
+    </Version>
+    <VendorSpecific>
+      <Apple>
+        <FormatDetection>1</FormatDetection>
+        <StatusBarStyle>default</StatusBarStyle>
+        <WebAppCapable>1</WebAppCapable>
+      </Apple>
+      <ChromeApp>
+        <Kiosk>0</Kiosk>
+        <KioskOnly>1</KioskOnly>
+        <OfflineEnabled>1</OfflineEnabled>
+      </ChromeApp>
+      <Cordova>
+        <WidgetID>com.smartmobilestudio.app</WidgetID>
+        <AllowIntent>http://*/*</AllowIntent>
+      </Cordova>
+    </VendorSpecific>
+    <Options>
+      <Compiler>
+        <Assertions>1</Assertions>
+        <Optimize>0</Optimize>
+        <HintsLevel>2</HintsLevel>
+        <ProjectSearchPath></ProjectSearchPath>
+      </Compiler>
+      <Codegen>
+        <Obfuscation>0</Obfuscation>
+        <RangeChecking>0</RangeChecking>
+        <InstanceChecking>0</InstanceChecking>
+        <ConditionChecking>0</ConditionChecking>
+        <LoopChecking>0</LoopChecking>
+        <InlineMagics>1</InlineMagics>
+        <IgnorePublishedInImplementation>0</IgnorePublishedInImplementation>
+        <EmitSourceLocation>0</EmitSourceLocation>
+        <EmitRTTI>0</EmitRTTI>
+        <Devirtualize>1</Devirtualize>
+        <MainBody>0</MainBody>
+        <CodePacking>0</CodePacking>
+        <SmartLinking>1</SmartLinking>
+        <Verbosity>0</Verbosity>
+      </Codegen>
+      <ConditionalDefines>
+        <HandleExceptions>1</HandleExceptions>
+        <AutoRefresh>0</AutoRefresh>
+        <LegacySupportForIE>0</LegacySupportForIE>
+      </ConditionalDefines>
+      <Linker>
+        <SourceMap>0</SourceMap>
+        <CompressCSS>0</CompressCSS>
+        <GenerateAppCacheManifest>0</GenerateAppCacheManifest>
+        <GenerateChromeAppManifest>0</GenerateChromeAppManifest>
+        <GenerateFireFoxManifest>0</GenerateFireFoxManifest>
+        <GenerateWebAppManifest>0</GenerateWebAppManifest>
+        <GenerateWidgetPackageConfigXML>0</GenerateWidgetPackageConfigXML>
+        <GenerateCordovaConfigXML>0</GenerateCordovaConfigXML>
+        <ExternalCSS>1</ExternalCSS>
+        <Theme>None</Theme>
+        <CustomTheme>1</CustomTheme>
+        <EmbedJavaScript>0</EmbedJavaScript>
+        <ResourcePath></ResourcePath>
+        <LibraryPath>Library</LibraryPath>
+      </Linker>
+      <Output>
+        <JavaScriptFileName>Lollipop.js</JavaScriptFileName>
+        <OutputFilePath>..\Output\Web\www\</OutputFilePath>
+      </Output>
+      <Import />
+      <Execute>
+        <ServeManifest>0</ServeManifest>
+        <Server>1</Server>
+        <CustomFile>index.html</CustomFile>
+        <LoadCustomFile>1</LoadCustomFile>
+        <PauseAfterExecution>0</PauseAfterExecution>
+        <UseSSL>0</UseSSL>
+        <ExecuteType>0</ExecuteType>
+        <ExecuteableParams>%output%</ExecuteableParams>
+      </Execute>
+    </Options>
+    <Files>
+      <File type="main">
+        <Name>Lollipop</Name>
+        <Created>2016-01-13T14:15:11.000Z</Created>
+        <Modified>2017-04-11T10:31:47.303</Modified>
+        <Filename>Lollipop.spr</Filename>
+      </File>
+      <File type="unit">
+        <Name>Lollipop.Framework</Name>
+        <Created>2016-09-24T17:55:30.881Z</Created>
+        <Modified>2017-04-14T13:08:53.468</Modified>
+        <Filename>Lollipop.Framework.pas</Filename>
+      </File>
+      <File type="unit">
+        <Name>Lollipop.Main</Name>
+        <Created>2016-09-24T17:55:30.881Z</Created>
+        <Modified>2017-04-18T09:44:51.833</Modified>
+        <Filename>Lollipop.Main.pas</Filename>
+      </File>
+      <File type="css">
+        <Name>Lollipop.css</Name>
+        <Created>2016-01-13T14:16:42.947Z</Created>
+        <Modified>2017-04-14T22:18:13.752</Modified>
+        <Filename>Lollipop.css</Filename>
+      </File>
+      <File type="unit">
+        <Name>Lollipop.Generator</Name>
+        <Created>2017-04-14T16:05:26.323Z</Created>
+        <Modified>2017-04-18T09:46:51.769</Modified>
+        <Filename>Lollipop.Generator.pas</Filename>
+      </File>
+    </Files>
+    <Target>Browser</Target>
+    <Generator>Empty Project</Generator>
+  </Project>
+</SMART>
